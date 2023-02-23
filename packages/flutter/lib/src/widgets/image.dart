@@ -1141,7 +1141,7 @@ class _ImageState extends State<Image> with WidgetsBindingObserver {
                 assert(() {
                   if (widget.errorBuilder == null) {
                     // ignore: only_throw_errors, since we're just proxying the error.
-                    throw error; // Ensures the error message is printed to the console.
+                  throw error; // Ensures the error message is printed to the console.
                   }
                   return true;
                 }());
